@@ -1,0 +1,22 @@
+plugin:
+    name: 'responsive.sitenotice::lang.plugin.name'
+    description: 'responsive.sitenotice::lang.plugin.description'
+    author: Responsive
+    icon: oc-icon-bullhorn
+    homepage: ''
+permissions:
+    responsive.sitenotice.manage_notice:
+        tab: 'responsive.sitenotice::lang.plugin.name'
+        label: notice.manage_notice
+navigation:
+    site_notice:
+        label: 'Site Notices'
+        url: responsive/sitenotice/notices
+        icon: icon-bullhorn
+        permissions:
+            - responsive.sitenotice.manage_notice
+        sideMenu:
+            notice:
+                label: Notice
+                url: responsive/sitenotice/notices
+                icon: icon-bullhorn

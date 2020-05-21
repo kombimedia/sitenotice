@@ -1,0 +1,68 @@
+tabs:
+    fields:
+        status:
+            label: 'responsive.sitenotice::lang.notice.status'
+            options:
+                Enabled: Enabled
+                Disabled: Disabled
+            span: left
+            required: 1
+            type: balloon-selector
+            tab: 'responsive.sitenotice::lang.notice.settings'
+        title:
+            label: 'responsive.sitenotice::lang.notice.title'
+            span: left
+            required: 1
+            type: text
+            comment: 'To identify on the backend only'
+            tab: 'responsive.sitenotice::lang.notice.settings'
+        slug:
+            label: 'responsive.sitenotice::lang.notice.slug'
+            span: right
+            preset:
+                field: title
+                type: slug
+            type: text
+            tab: 'responsive.sitenotice::lang.notice.settings'
+        delay:
+            label: 'responsive.sitenotice::lang.notice.delay'
+            span: left
+            type: text
+            comment: 'Number of seconds before the notice is displayed. e.g. 5'
+            tab: 'responsive.sitenotice::lang.notice.settings'
+        width:
+            label: 'responsive.sitenotice::lang.notice.width'
+            options:
+                md: Medium
+                lg: Large
+            span: right
+            type: balloon-selector
+            tab: 'responsive.sitenotice::lang.notice.settings'
+        hide:
+            label: 'responsive.sitenotice::lang.notice.hide'
+            span: left
+            type: switch
+            comment: 'Once the notice is closed it will not be display again in the current session'
+            tab: 'responsive.sitenotice::lang.notice.settings'
+        heading:
+            label: 'responsive.sitenotice::lang.notice.heading'
+            span: left
+            type: text
+            tab: 'responsive.sitenotice::lang.notice.message'
+        message:
+            label: 'responsive.sitenotice::lang.notice.message-content'
+            size: small
+            span: full
+            required: 1
+            type: richeditor
+            tab: 'responsive.sitenotice::lang.notice.message'
+        button_label:
+            label: 'responsive.sitenotice::lang.notice.button-label'
+            span: left
+            type: text
+            tab: 'responsive.sitenotice::lang.notice.message'
+        button_link:
+            label: 'responsive.sitenotice::lang.notice.button-link'
+            span: right
+            type: text
+            tab: 'responsive.sitenotice::lang.notice.message'

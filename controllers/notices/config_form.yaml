@@ -1,0 +1,11 @@
+name: Notices
+modelClass: Responsive\SiteNotice\Models\SiteNotice
+form: $/responsive/sitenotice/models/sitenotice/fields.yaml
+defaultRedirect: responsive/sitenotice/notices
+create:
+    redirect: 'responsive/sitenotice/notices/update/:id'
+    redirectClose: responsive/sitenotice/notices
+update:
+    redirect: responsive/sitenotice/notices
+    redirectClose: responsive/sitenotice/notices
+preview: {  }

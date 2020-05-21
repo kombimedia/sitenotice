@@ -1,0 +1,15 @@
+columns:
+    title:
+        label: 'responsive.sitenotice::lang.notice.title'
+        type: text
+        searchable: true
+        sortable: true
+    delay:
+        label: 'responsive.sitenotice::lang.notice.delay'
+        type: text
+    hide:
+        label: 'responsive.sitenotice::lang.notice.hide'
+        type: switch
+    status:
+        label: 'responsive.sitenotice::lang.notice.status'
+        type: text

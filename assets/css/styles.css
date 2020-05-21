@@ -1,0 +1,9 @@
+#siteNotice .modal-content {
+    padding: 1em;
+}
+#siteNotice .modal-header {
+    border-bottom: unset;
+}
+#siteNotice .modal-footer {
+    border-top: unset;
+}
