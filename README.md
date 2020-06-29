@@ -1,4 +1,4 @@
-# sitenotice
+# OctoberCMS Sitenotice
 October CMS plugin to add site notice (Bootstrap modal) to a page
 
 Pretty simple really. Clone plugin repo to the plugins dir of your project. Run `php artisan october:up` if required.
